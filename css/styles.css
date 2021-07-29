@@ -14,7 +14,8 @@ hr {
 }
 
 a {
-  color: #f3a14b;
+  color: #fdfdff
+  ;
 }
 a:hover {
   color: #93ada4;
@@ -25,16 +26,16 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: #546a7b;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  font-family: 'Anton', sans-serif;
+ font-family: 'Raleway', sans-serif;
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: #fdfdff;
 }
 .masthead-full-name {
   font-family: 'Anton', sans-serif;
@@ -42,7 +43,7 @@ header.masthead {
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: #c6c5b9;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
@@ -53,7 +54,8 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: #c6c5b9
+   !important;
 }
 
 .img-profile {
@@ -94,7 +96,7 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #fdfdff !important;
 }
 
 .text-dark {
@@ -107,8 +109,8 @@ header.masthead {
   justify-content: center;
   height: 3rem;
   width: 3rem;
-  background-color: #6c757d;
-  color: #f8f9fa;
+  background-color: #62929e;
+  color: #c6c5b9;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -131,7 +133,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #546a7b;
 }
 
 .dev-icons {
@@ -141,22 +143,22 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #c6c5b9;
 }
 
 /* CV navbar styling */
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #c6c5b9;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #fdfdff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f3a14b;
+  color: #393d3f;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: #93ada4;
+  color: #393d3f;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -165,7 +167,7 @@ header.masthead {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #93ada4;
+  color: #c6c5b9;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -181,15 +183,15 @@ header.masthead {
   color: #fff;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #93ada4;
+  color: #393d3f;
 }
 
 /* Button Styling */
 
 .btn-primary {
   color: #f8f9fa;
-  background-color: #f3a14b;
-  border-color: #f3a14b;
+  background-color: #546a7b;
+  border-color: #546a7b;
 }
 
 .btn-primary:hover {
@@ -209,13 +211,13 @@ header.masthead {
   border-color: #93ada4;
 }
 .btn-outline-primary {
-  color: #DB995A;
-  border-color: #DB995A;
+  color: #393d3f;
+  border-color: #393d3f;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  background-color: #393d3f;
+  border-color: #393d3f;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem #93ada4;
@@ -226,11 +228,11 @@ header.masthead {
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  background-color: #393d3f;
+  border-color: #393d3f;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #dc7646;
+  box-shadow: 0 0 0 0.2rem #393d3f;
 }
 
 .btn-xl {
@@ -280,7 +282,7 @@ header.masthead {
 }
 
 .border-primary {
-  border-color: #DB995A !important;
+  border-color: #393d3f !important;
 }
 
 /* Generic, Portfolio Page Section */
@@ -311,19 +313,19 @@ header.masthead {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #eadfc9;
+  background-color: #c6c5b9;
   color: #f8f9fa;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 1.25rem;
-  color: #dc7646;
+  color: #546a7b;
   text-transform: uppercase;
-  background-color: #bfdbcf;
+  background-color: #fdfdff;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #dc7646;
+  color: #546a7b;
   font-weight: 700;
   letter-spacing: 0.0625em;
   font-family: 'Anton', sans-serif;
@@ -331,15 +333,15 @@ header.masthead {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 0.95rem;
-  color: #dc7646;
+  color: #546a7b;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active{
-  color: #DB995A;
+  color: #546a7b;
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #DB995A;
+  color: #546a7b;
 }
 
 @media (min-width: 992px) {
@@ -361,7 +363,7 @@ header.masthead {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #eadfc9;
+    background-color: #c6c5b9;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
